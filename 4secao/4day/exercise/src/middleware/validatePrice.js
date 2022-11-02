@@ -6,25 +6,17 @@
 // Retornar o status 400 e uma mensagem em formato json;
 // Sugestão: { "message": "O campo price deve ser um número maior ou igual a zero" }.
 
-const mandatoryPrice = (req, res, next) => {
-  const requiredProperties = ['price'];
-  const hasProperties = requiredProperties.every((prop) => prop in req.body);
-  if (!hasProperties) {
+const validatePrice = (req, res, next) => {
+  const { price } = req.body;
+  if (price === undefined) {
     res.status(400).send({ message: 'O campo price é obrigatório' });
+  }
+  if (price < 0) {
+    res.status(400).send({ message: 'O campo price deve ser um número maior ou igual a zero' });
   }
   next();
 };
 
-const valuePrice = (req, res, next) => {
-  const { price } = req.body;
-  if (price >= 0) {
-    next();
-  } else {
-    res.status(400).send({ message: 'O campo price deve ser um número maior ou igual a zero' });
-  }
-};
-
 module.exports = {
-  mandatoryPrice,
-  valuePrice,
+  validatePrice,
 };
