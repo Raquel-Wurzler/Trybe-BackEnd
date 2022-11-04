@@ -12,7 +12,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 #### Seção 4: Introdução ao desenvolvimento Web com Node.js:
 
-##### Dia 2: Node.js: API REST com Express (Aprendizados do dia)
+##### Dia 2: Node.js: API REST com Express (Aprendizados do dia):
 * Definir um Servidor;
 * Utilizar o Node.js com o framework Express para criar uma rota de um endpoint de API, acessível pelo navegador;
 * Utilizar o Nodemon para auxiliar no desenvolvimento de APIs Node.js com o framework Express;
