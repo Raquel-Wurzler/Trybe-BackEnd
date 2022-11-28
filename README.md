@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Dia 1: ORM Interface de aplicação com o banco de dados (Aprendizados do dia):
 * O que é ORM - Interface da aplicação com o banco de dados;
 * Mapeamentos - Data Mapper e o Active Record;
-* Sequelize - Uma das bibliotecas de ORM mais conhecidas é o Sequelize;
+* Sequelize - Uma das bibliotecas de ORM mais conhecidas;
 * Como configurar o Sequelize;
 * Aplicando Sequelize em cada camada do MSC (Model, Service, Controller - Arquitetura de Software);
 
