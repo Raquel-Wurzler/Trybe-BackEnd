@@ -35,7 +35,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 * Eager loading, ou carregamento antecipado;
 * Lazy loading, ou carregamento tardio;
 
-➜ _Os exercícios desse dia foram feitos a partir do fork de um repósitório do GitHub_
+Os exercícios de fixação estão neste repositório,
+
+➜ _Os exercícios de prática desse dia foram feitos a partir do fork de um repósitório no GitHub_
 
 **Link repósitório com exercícios feitos**: <https://github.com/Raquel-Wurzler/exercise-sequelize-associations-11-1n/tree/sequelize-associations-11-1n>;
 
