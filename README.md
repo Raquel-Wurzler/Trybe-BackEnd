@@ -29,16 +29,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 * Como configurar o Sequelize;
 * Aplicando Sequelize em cada camada do MSC (Model, Service, Controller - Arquitetura de Software);
 
-##### Dia 2: Dia 02: ORM - Associations 1:1 e 1:N (Aprendizados do dia):
+##### Dia 2: ORM - Associations 1:1 e 1:N (Aprendizados do dia):
 * Como aplicar relacionamento 1:1 no Sequelize;
 * Como aplicar relacionamento 1:N no Sequelize;
 * Eager loading, ou carregamento antecipado;
 * Lazy loading, ou carregamento tardio;
 
-Os exercícios de fixação estão neste repositório,
+Os exercícios de fixação estão neste repositório, na pasta 2and3day,
 
-➜ _Os exercícios de prática desse dia foram feitos a partir do fork de um repósitório no GitHub_
+##### Dia 3: ORM - Associations N:N e Transactions (Aprendizados do dia):
+* O que são e como aplicar Transações;
+* Como aplicar relacionamento N:N no Sequelize;
 
-**Link repósitório com exercícios feitos**: <https://github.com/Raquel-Wurzler/exercise-sequelize-associations-11-1n/tree/sequelize-associations-11-1n>;
-
-**Branch**: _exercise-sequelize-associations-11-1n_
+Os exercícios de fixação estão neste repositório, na pasta 2and3day,
