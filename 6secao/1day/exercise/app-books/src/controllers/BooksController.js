@@ -1,4 +1,3 @@
-// Exercício bônus fazer a partir da questão 4
 const BooksService = require('../services/BooksService');
 
 const erro = 'Algo deu errado';
@@ -28,8 +27,8 @@ const getById = async (req, res) => {
 
 const createBook = async (req, res) => {
   try {
-    const { title, author, pageQuantity } = req.body;
-    const newBook = await BooksService.createBook(title, author, pageQuantity);
+    const { title, author, pageQuantity, publisher } = req.body;
+    const newBook = await BooksService.createBook(title, author, pageQuantity, publisher);
     return res.status(201).json(newBook);
   } catch (error) {
     res.status(500).json({ message: `${erro}: ${error.message}` });
@@ -39,9 +38,9 @@ const createBook = async (req, res) => {
 const updateBook = async (req, res) => {
   try {
     const { id } = req.params;
-    const { title, author, pageQuantity } = req.body;
+    const { title, author, pageQuantity, publisher } = req.body;
     const updatedBook = await BooksService
-      .updateBook(id, { title, author, pageQuantity });
+      .updateBook(id, { title, author, pageQuantity, publisher });
     if (!updatedBook) return res.status(404).json({ message: 'Book not found' });
     return res.status(201).json({ message: 'Book updated!'})
   } catch (error) {
