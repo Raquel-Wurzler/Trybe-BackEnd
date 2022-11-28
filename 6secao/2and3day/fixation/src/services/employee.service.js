@@ -1,6 +1,11 @@
 // src/services/employee.service.js
 
 const { Address, Employee } = require('../models/');
+const Sequelize = require('sequelize');
+const config = require('../config/config');
+const env = process.env.NODE_ENV || 'development';
+// Ajustamos para usar a configuração correta para nosso ambiente
+const sequelize = new Sequelize(config[env]);
 
 const getAll = async () => {
   const employee = await Employee.findAll({
@@ -36,11 +41,6 @@ const getById = async (id) => {
 // --> O problema da operação acima é que, caso ocorra qualquer tipo de erro na operação de salvar o endereço no banco, a pessoa vai ficar cadastrada de forma inconsistente, pois o registro na tabela users foi concluído com sucesso. Para garantir que vamos salvar os dois objetos ou não vamos salvar nada, usamos o recurso de gerenciamento de transação do Sequelize.
 
 // ----------- Modo Certo: Usando Unmanaged transactions ---------------
-const Sequelize = require('sequelize');
-const config = require('../config/config');
-const env = process.env.NODE_ENV || 'development';
-// Ajustamos para usar a configuração correta para nosso ambiente
-const sequelize = new Sequelize(config[env]);
 
 // const insert = async ({ firstName, lastName, age, city, street, number }) => {
 //   const t = await sequelize.transaction();
@@ -69,6 +69,7 @@ const sequelize = new Sequelize(config[env]);
 //   }
 // };
 
+// ----------- Modo Certo: Usando Managed transactions ---------------
 const insert = async ({ firstName, lastName, age, city, street, number }) => {
   const t = await sequelize.transaction();
   try {
