@@ -12,33 +12,56 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 #### Seção 4: Introdução ao desenvolvimento Web com Node.js:
 
-##### Dia 2: Node.js: API REST com Express (Aprendizados do dia):
-* Definir um Servidor;
-* Utilizar o Node.js com o framework Express para criar uma rota de um endpoint de API, acessível pelo navegador;
-* Utilizar o Nodemon para auxiliar no desenvolvimento de APIs Node.js com o framework Express;
-* Utilizar o Node.js com o framework Express para criar uma aplicação C.R.U.D. - de criação, leitura, atualização e remoção de dados;
-* Utilizar o Thunder Client para fazer requisições a partir do VS Code;
-* Descrever uma API REST.
+##### Dia 1: Node.js: Runtime Assíncrono:
+<details>
+  <summary>🤓 - Aprendizados do dia</summary>
+  ⏩ Introdução ao Node; <br />
+  ⏩ Sistema Módulos: O que é, Pra que serve, ; <br />
+  ⏩ Principais Sistemas de Módulo; <br />
+  ⏩ NPM; <br />
+  ⏩ Fluxo assíncrono; <br />
+</details>
+
+##### Dia 2: Node.js: API REST com Express:
+<details>
+  <summary>🤓 - Aprendizados do dia</summary>
+  ⏩ Definir um Servidor; <br />
+  ⏩ Utilizar o Node.js com o framework Express para criar uma rota de um endpoint de API, acessível pelo navegador; <br />
+  ⏩ Utilizar o Nodemon para auxiliar no desenvolvimento de APIs Node.js com o framework Express; <br />
+  ⏩ Utilizar o Node.js com o framework Express para criar uma aplicação C.R.U.D. - de criação, leitura, atualização e remoção de dados; <br />
+  ⏩ Utilizar o Thunder Client para fazer requisições a partir do VS Code; <br />
+  ⏩ Descrever uma API REST; <br />
+</details>
+
 
 #### Seção 6: Node.js: ORM e Autenticação:
 
-##### Dia 1: ORM Interface de aplicação com o banco de dados (Aprendizados do dia):
-* O que é ORM - Interface da aplicação com o banco de dados;
-* Mapeamentos - Data Mapper e o Active Record;
-* Sequelize - Uma das bibliotecas de ORM mais conhecidas;
-* Como configurar o Sequelize;
-* Aplicando Sequelize em cada camada do MSC (Model, Service, Controller - Arquitetura de Software);
+##### Dia 1: ORM Interface de aplicação com o banco de dados:
+<details>
+  <summary>🤓 - Aprendizados do dia</summary>
+  ⏩  O que é ORM - Interface da aplicação com o banco de dados; <br />
+  ⏩  Mapeamentos - Data Mapper e o Active Record; <br />
+  ⏩  Sequelize - Uma das bibliotecas de ORM mais conhecidas; <br />
+  ⏩  Como configurar o Sequelize; <br />
+  ⏩  Aplicando Sequelize em cada camada do MSC (Model, Service, Controller - Arquitetura de Software); <br />
+</details>
 
-##### Dia 2: ORM - Associations 1:1 e 1:N (Aprendizados do dia):
-* Como aplicar relacionamento 1:1 no Sequelize;
-* Como aplicar relacionamento 1:N no Sequelize;
-* Eager loading, ou carregamento antecipado;
-* Lazy loading, ou carregamento tardio;
+##### Dia 2: ORM - Associations 1:1 e 1:N:
+<details>
+  <summary>🤓 - Aprendizados do dia</summary>
+  ⏩  Como aplicar relacionamento 1:1 no Sequelize; <br />
+  ⏩  Como aplicar relacionamento 1:N no Sequelize; <br />
+  ⏩  Eager loading, ou carregamento antecipado; <br />
+  ⏩  Lazy loading, ou carregamento tardio; <br />
+</details>
 
 Os exercícios de fixação estão neste repositório, na pasta 2and3day,
 
 ##### Dia 3: ORM - Associations N:N e Transactions (Aprendizados do dia):
-* O que são e como aplicar Transações;
-* Como aplicar relacionamento N:N no Sequelize;
+<details>
+  <summary>🤓 - Aprendizados do dia</summary>
+  ⏩  O que são e como aplicar Transações; <br />
+  ⏩  Como aplicar relacionamento N:N no Sequelize; <br />
+</details>
 
 Os exercícios de fixação estão neste repositório, na pasta 2and3day,
