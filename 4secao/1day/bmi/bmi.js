@@ -6,8 +6,8 @@
 const readlineSync = require('readline-sync');
 
 const calculateBmi = () => {
-  const weight = readlineSync.questionFloat('What’ your weight? (kg) ');
-  const height = readlineSync.questionFloat('What’ your height? (mt) ');
+  const weight = readlineSync.questionFloat('What is your weight? (kg) ');
+  const height = readlineSync.questionFloat('What is your height? (mt) ');
   const bmi = weight / (height * height);
   if (bmi < 18.5) {
     console.log(`Your Body Mass Index is ${bmi.toFixed(2)}, Status: Underweight (thin)`);
