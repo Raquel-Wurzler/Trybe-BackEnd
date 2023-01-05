@@ -13,8 +13,11 @@ router.get('/movies/search', async (req, res) => {
   const { q } = req.query;
   try {
     const movies = await redingFiles();
-    const filterMovies = movies.filter((item) => item.movie.includes(q));
-    return res.status(200).json(filterMovies);
+    if (q) {
+      const filterMovies = movies.filter((item) => item.movie.includes(q));
+      return res.status(200).json(filterMovies);
+    }
+    res.status(204).end();
   } catch (error) {
     res.status(500).send({ message: error.message });
   }
