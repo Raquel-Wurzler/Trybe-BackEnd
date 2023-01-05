@@ -7,6 +7,19 @@ const moviePath = path.join(__dirname, '../movies.json');
 
 const router = express.Router();
 
+// Crie um endpoint do tipo GET com a rota /movies/search, que possa listar todos os filmes do JSON.
+
+router.get('/movies/search', async (req, res) => {
+  const { q } = req.query;
+  try {
+    const movies = await redingFiles();
+    const filterMovies = movies.filter((item) => item.movie.includes(q));
+    return res.status(200).json(filterMovies);
+  } catch (error) {
+    res.status(500).send({ message: error.message });
+  }
+});
+
 // Crie um endpoint do tipo GET com a rota /movies/:id, que possa listar um filme do JSON por id.
 
 router.get('/movies/:id', async (req, res) => {
