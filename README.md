@@ -65,3 +65,14 @@ Os exercícios de fixação estão neste repositório, na pasta 2and3day,
 </details>
 
 Os exercícios de fixação estão neste repositório, na pasta 2and3day,
+
+#### Seção 9: Programação Orientada a Objetos (POO) e SOLID:
+
+##### Dia 1: Introdução à Orientação a Objetos:
+<details>
+  <summary>🤓 - Aprendizados do dia</summary>
+  ⏩  O que POO; <br />
+  ⏩  Abstração; <br />
+  ⏩  Encapsulamento; <br />
+  ⏩  Implementar em TypeScript, Classes, Instâncias, Atributos e Métodos; <br />
+</details>
