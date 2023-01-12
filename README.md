@@ -76,3 +76,12 @@ Os exercícios de fixação estão neste repositório, na pasta 2and3day,
   ⏩  Encapsulamento; <br />
   ⏩  Implementar em TypeScript, Classes, Instâncias, Atributos e Métodos; <br />
 </details>
+
+##### Dia 2: Herança e Composição:
+<details>
+  <summary>🤓 - Aprendizados do dia</summary>
+  ⏩  Herança; <br />
+  ⏩  Interface; <br />
+  ⏩  Interface versus Classe; <br />
+  ⏩  Composição e Agregação; <br />
+</details>
