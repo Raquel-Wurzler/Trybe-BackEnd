@@ -94,3 +94,12 @@ Os exercícios de fixação estão neste repositório, na pasta 2and3day,
   ⏩  Método Abstrato; <br />
   ⏩  Métodos Estáticos; <br />
 </details>
+
+##### Dia 4: SOLID - Introdução e Princípios S, O e D:
+<details>
+  <summary>🤓 - Aprendizados do dia</summary>
+  ⏩  Princípios do SOLID; <br />
+  ⏩  Single Responsibility Principle; <br />
+  ⏩  Open/Closed Principle (OCP); <br />
+  ⏩  Dependency Inversion Principle; <br />
+</details>
