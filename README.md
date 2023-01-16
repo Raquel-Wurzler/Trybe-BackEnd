@@ -85,3 +85,12 @@ Os exercícios de fixação estão neste repositório, na pasta 2and3day,
   ⏩  Interface versus Classe; <br />
   ⏩  Composição e Agregação; <br />
 </details>
+
+##### Dia 3: Polimorfismo:
+<details>
+  <summary>🤓 - Aprendizados do dia</summary>
+  ⏩  Polimorfismo, o que é?; <br />
+  ⏩  Classe Abstrata; <br />
+  ⏩  Método Abstrato; <br />
+  ⏩  Métodos Estáticos; <br />
+</details>
