@@ -103,3 +103,11 @@ Os exercícios de fixação estão neste repositório, na pasta 2and3day,
   ⏩  O: Open/Closed Principle (Princípio do Aberto/Fechado ou OCP); <br />
   ⏩  D: Dependency Inversion Principle (Princípio da Inversão de Dependência ou DIP); <br />
 </details>
+
+##### Dia 5: SOLID - Princípios L e I:
+<details>
+  <summary>🤓 - Aprendizados do dia</summary>
+  ⏩  Princípios do SOLID; <br />
+  ⏩  L: Liskov Substitution Principle (Princípio de Substituição de Liskov ou LSP); <br />
+  ⏩  I: Interface Segregation Principle (Princípio da Segregação de Interface ou ISP); <br />
+</details>
