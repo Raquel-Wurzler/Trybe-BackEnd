@@ -99,7 +99,7 @@ Os exercícios de fixação estão neste repositório, na pasta 2and3day,
 <details>
   <summary>🤓 - Aprendizados do dia</summary>
   ⏩  Princípios do SOLID; <br />
-  ⏩  Single Responsibility Principle; <br />
-  ⏩  Open/Closed Principle (OCP); <br />
-  ⏩  Dependency Inversion Principle; <br />
+  ⏩  S: Single Responsibility Principle (Princípio da Responsabilidade Única ou SRP); <br />
+  ⏩  O: Open/Closed Principle (Princípio do Aberto/Fechado ou OCP); <br />
+  ⏩  D: Dependency Inversion Principle (Princípio da Inversão de Dependência ou DIP); <br />
 </details>
