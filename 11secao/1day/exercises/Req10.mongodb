@@ -1,0 +1,4 @@
+// Exercício 10: Pule 5 documentos e exiba os atributos _id, title, authors e status dos livros com o status = "MEAP", limitando-se a 10 documentos.
+
+use("library")
+db.books.find({ "status": "MEAP"}, { "title": true, "authors": true, "status": true }).skip(5).limit(10)
