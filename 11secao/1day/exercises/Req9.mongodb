@@ -1,0 +1,4 @@
+// Exercício 9: Exiba os atributos title, isbn e pageCount dos 3 primeiros livros. NÃO retorne o atributo _id.
+
+use("library")
+db.books.find({}, { "_id": false, "title": true, "isbn": true, "pageCount": true }).limit(3)
