@@ -139,4 +139,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
     ⏩ Bancos de Dados, Coleções e Documentos; <br />
     ⏩ Principais comandos (Insert, Find, CountDocuments, Limit, Skip); <br />
   </details>
+  
+  ##### Dia 2: Filter Operators:
+  <details>
+    <summary>🤓 - Aprendizados do dia</summary>
+    ⏩ Operadores de comparação; <br />
+    ⏩ Operadores lógicos; <br />
+    ⏩ Composição de filtros avançados; <br />
+    ⏩ Operador $exists; <br />
+    ⏩ Método sort(); <br />
+  </details>
 </details>
