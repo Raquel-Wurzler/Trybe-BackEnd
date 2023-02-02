@@ -149,4 +149,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
     ⏩ Operador $exists; <br />
     ⏩ Método sort(); <br />
   </details>
+    
+  ##### Dia 3: Filter Operators:
+  <details>
+    <summary>🤓 - Aprendizados do dia</summary>
+    ⏩ Operadores de consulta; <br />
+    ⏩ Expressões regulares e o operador $regex; <br />
+  </details>
 </details>
