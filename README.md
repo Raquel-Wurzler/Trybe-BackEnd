@@ -150,10 +150,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
     ⏩ Método sort(); <br />
   </details>
     
-  ##### Dia 3: Filter Operators:
+  ##### Dia 3: Updates Simples:
   <details>
     <summary>🤓 - Aprendizados do dia</summary>
     ⏩ Operadores de consulta; <br />
     ⏩ Expressões regulares e o operador $regex; <br />
+  </details>
+  
+   ##### Dia 4: Updates Complexos - Arrays:
+  <details>
+    <summary>🤓 - Aprendizados do dia</summary>
+    ⏩ Incorporar dados aos documentos através de arrays; <br />
+    ⏩ Utilizar os operadores para editar arrays; <br />
   </details>
 </details>
